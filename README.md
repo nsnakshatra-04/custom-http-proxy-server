@@ -115,6 +115,11 @@ Actions include:
 
 ---
 
+## Development Notes
+
+While implementing the proxy, handling partial `recv()` and `send()` calls over TCP was one of the main challenges, as HTTP headers and bodies are not guaranteed to arrive in a single read. Another practical difficulty was correctly distinguishing between standard HTTP requests and HTTPS `CONNECT` requests and routing them through different handling paths. The current design reflects incremental improvements made while testing the proxy using `curl` under concurrent client scenarios.
+
+
 ## Limitations
 - Only HTTP and HTTPS CONNECT are supported
 - HTTPS traffic is not decrypted or inspected
