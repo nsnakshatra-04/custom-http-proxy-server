@@ -1,0 +1,10 @@
+2025-12-24 02:47:33 | 127.0.0.1 | example.com:80 | BLOCKED
+2025-12-24 02:48:51 | 127.0.0.1 | httpbin.org:80 | ALLOWED
+2025-12-24 02:49:22 | 127.0.0.1 | httpbin.org:80 | ALLOWED
+2025-12-24 02:52:44 | 127.0.0.1 | httpbin.org:80 | ALLOWED
+2025-12-24 03:03:07 | 127.0.0.1 | example.com:443 | BLOCKED
+2025-12-24 03:06:07 | 127.0.0.1 | example.com:443 | BLOCKED
+2025-12-24 03:07:39 | 127.0.0.1 | neverssl.com:443 | TUNNEL
+2025-12-24 03:36:01 | 127.0.0.1 | example.com:80 | BLOCKED
+2025-12-24 03:36:13 | 127.0.0.1 | neverssl.com:443 | TUNNEL
+2025-12-24 03:36:46 | 127.0.0.1 | httpbin.org:80 | ALLOWED
